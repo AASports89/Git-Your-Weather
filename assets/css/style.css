@@ -4,20 +4,39 @@
   box-sizing: border-box;
 }
 
-body{
-  background: #448aff;
+header {
+  background-image: linear-gradient(
+    rgb(4, 38, 205) 0%,
+    rgb(129, 143, 247) 100%);
+    border: solid 3px black;
+    border-radius: 0.5em;
 }
 
-.bg-transparent {
+body {
+  background-color: rgb(41, 132, 236);
+}
+
+p {
+font-weight: bold;
+font-size: 20px;
+}
+
+.container-fluid { 
+  background-color: rgb(114, 119, 140);
+}
+
+footer {
   background-image: linear-gradient(
   rgb(4, 38, 205) 0%,
   rgb(129, 143, 247) 100%);
+  width: 100%;
+  height: 50px;
+  border: solid 3px black;
+  border-radius: 0.5em;
 }
 
-
 /************************* MOBILE DEVICE CONFIGURATIONS ************************/
-
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
 
   .container {
     flex-wrap: wrap;
@@ -39,4 +58,4 @@ body{
     flex-wrap: wrap;
   }
 
-} */
+}
