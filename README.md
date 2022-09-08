@@ -47,33 +47,33 @@ THEN I am again presented with current and future conditions for that city
 > **Note**: The GIF & images below represent the look and functionality of the Git Your Weather application:
 
 
-![The following GIF highlights the functionality and overall look of the application.](./assets/images/event-fan-follow.gif)
+![The following GIF highlights the functionality and overall look of the application.](./assets/images/weather.gif)
 
 
 ### Main Screen:
 
-![The following image highlights the main screen of the application.](./assets/images/mapg.jpg)
+![The following image highlights the main screen of the application.](./assets/images/mpg.jpg)
 
 
-### Google Maps:
+### Functionality:
 
-![The following image highlights the Google Maps feature of the application.](./assets/images/pgm.jpg)
-
-
-### Mobile Device Compatibility:
-
-![The following image depicts the mobile device compatibility of the application.](./assets/images/pgmb.jpg)
+![The following image highlights the Google Maps feature of the application.](./assets/images/mpg2.jpg)
 
 
-### Ticket Cards:
+### Smart-Phone Compatibility:
 
-![The following image depicts how the search results are displayed witin the application.](./assets/images/pgtk.jpg)
+![The following image depicts the smart-phone compatibility of the application.](./assets/images/sph.jpg)
+
+
+### Tablet Device Compatibility:
+
+![The following image depicts how the application is displayed witin a tablet device.](./assets/images/td.jpg)
 
 
 > **Note:** The deployed webpage and GitHUB repository URLs are located below:
 
 ### Deployed Webpage URL:
-https://aasports89.github.io/Event-Fan-Follow/
+https://aasports89.github.io/Git-Your-Weather/
 
 ### GitHUB Repository URL:
 https://github.com/AASports89/Git-Your-Weather
@@ -122,13 +122,6 @@ https://github.com/AASports89/Git-Your-Weather
 
 * Repository contains quality readme file with description, screenshot, and link to deployed application.
 
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
 
 - - -
 - - -
