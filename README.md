@@ -6,7 +6,7 @@ Live weather data is essentially available all throughout the web, however time 
 
 Git Your Weather is a web-based application that utilizes, third-party APIs allowing access to their data and functionality by making requests with specific parameters to a URL. This application will retrieve data from other application's APIs and stage it based on live weather data parameters set by a user. 
 
-Git Your Weather is essentially a weather dashboard that will run in the browser featuring dynamically updated HTML, CSS, and JavaScript languages. Lastly, 'localStorage' will be utilized to store any persistent data for further user convenience.
+Git Your Weather is essentially a weather dashboard that will run in the browser featuring dynamically updated HTML, CSS, and JavaScript languages. Lastly, 'localStorage' will be utilized to store any persistently used data for additional user convenience.
 
 - - -
 
