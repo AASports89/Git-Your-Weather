@@ -16,28 +16,28 @@
 <body>
   
   <header>
-        <h1><img style="width: 50%; height: auto; margin-left: 25%; border-radius: 0.5em" src="./assets/images/wh.gif"></h1>
+        <h1><img style="width: 50%; height: auto; margin-left: 25%; margin-top: 1.5%; margin-bottom: 0.5%; border-radius: 0.5em" src="./assets/images/wh.gif"></h1>
   </header>
 
     <div class="container-fluid">
         <div class="row mt-2">
 <!-- SIDE-BAR COLUMN -->
             <aside class="col-lg-4">
-                <div style="border: solid 3px black" class="card bg-light p-2 mb-2">
+                <div style="border: solid 1.5px black; border-radius: 1em; margin-top: 2%" class="card bg-light p-2 mb-2">
 <!-- CITY SEARCH -->
-                    <h4 style="text-align: center; text-decoration: underline">Search By City</h4>
-                    <nav class="navbar navbar-light bg-light">
-                      <form class="form-inline" id="city-search">
-                        <input style="width: 80%" class="form-control mr-sm-2" id="city-input" type="search" placeholder="Enter City Name" 
+                    <h4><img style="width: 75%; height: atuo; margin-left: 12.5%" src="./assets/images/search.png"></h4>
+                    <nav style="width:100%" class="navbar navbar-light bg-light">
+                      <form style="width: 100%" class="form-inline" id="city-search">
+                        <input style="width: 100%; margin-bottom: 2%; border: 1px solid black" class="form-control mr-sm-2" id="city-input" type="search" placeholder="Enter City Name" 
                         aria-label="Search">
-                        <button class="btn btn-outline-primary my-2 my-sm-0" 
+                        <button style="width: 30%; margin-left: 35%" class="btn btn-outline-primary my-2 my-sm-0" 
                         type="submit" id="form-submit">
                         <i class="fa-regular fa-paper-plane"></i></button>
                       </form>
                     </nav>
-                    <h5 style="margin-top: 2%">Select Any City Below:</h5>
+                    <h5><img style="width: 60%; height: auto; margin-left: 20%; margin-top: 3%" src="./assets/images/select.png"></h5>
 <!-- STORED CITY BUTTONS -->
-                    <ul style="text-align: center" class="list-group mt-2" id="city-list">
+                    <ul style="text-align: center; border: solid black 1.25px; border-radius: 0.3em;" class="list-group mt-2" id="city-list">
                     </ul>
                 </div>
             </aside>
@@ -46,11 +46,11 @@
             <div class="col-lg-8">
 <!-- PLACEHOLDERS FOR DATA OUTPUT -->
 
-              <div class="card-body">
-                <h5 style="text-align: center" class="card-title"><img style="width: 50%; height: auto" src="./assets/images/lw.png"></h5>
-                <section style="border: solid 3px black" class="card p-2" id="current" style="display:none">
-                    <h1 style="text-align: center" id="city"></h1>
-                    <h5 style="text-align: center; font-weight: bold" id="date"></h5>
+              <div style="border-radius: 1em; border: solid 1.5px whitesmoke; margin-top: 1%" class="card-body">
+                <h5 style="text-align: center" class="card-title"><img style="width: 45%; height: auto" src="./assets/images/current.png"></h5>
+                <section style="border: dashed 1.5px black" class="card p-2" id="current" style="display:none">
+                    <h1 style="color: #1f19ce; text-align: center; font-size: 325%; border-bottom: 1px solid black" id="city"></h1>
+                    <h5 style="text-align: center; font-weight: bold; font-size: 150%; padding-bottom: 1%" id="date"></h5>
                     <p id="temp"></p>
                     <p id="humidity"></p>
                     <p id="wind"></p>
@@ -58,10 +58,9 @@
                 </section>
               </div>
 <!-- DISPLAY FOR 5-DAY FORECAST OUTPUT -->
-                <section style="border: solid 3px black; border-radius: 0.5em" class="mt-2 mb-2" id="five-day" style="display:none;">
+                <section style="border: solid 1.5px whitesmoke; border-radius: 1em; text-align: center; font-weight: bold" class="mt-2 mb-2" id="five-day" style="display:none;">
                     <h3 style="text-align: center"><img src="./assets/images/fc.png"></h3>
-                    
-                    <div class="card-deck">
+                    <div style="width: 99%; border-radius: 1em; border: dashed 1.5px black; margin-bottom: 1%; margin-left: 0.5%" class="card-deck">
                     </div>
                 </section>
             </div>
