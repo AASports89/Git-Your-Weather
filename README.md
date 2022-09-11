@@ -8,8 +8,6 @@ Git Your Weather is a web-based application that utilizes, third-party APIs allo
 
 Git Your Weather is essentially a weather dashboard that will run in the browser featuring dynamically updated HTML, CSS, and JavaScript languages. Lastly, 'localStorage' will be utilized to store any persistent data for further user convenience.
 
-Use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities. Read through the documentation for setup and usage instructions. You will use `localStorage` to store any persistent data. For more information on how to work with the OpenWeather API, refer to the [Full-Stack Blog on how to use API keys](https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys).
-
 - - -
 
 ## USER STORY:
