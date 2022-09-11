@@ -8,7 +8,7 @@ header {
   background-image: linear-gradient(
     rgb(4, 38, 205) 0%,
     rgb(129, 143, 247) 100%);
-    border: solid 2px black;
+    border: solid 1.5 black;
     border-radius: 0.25em;
 }
 
@@ -28,6 +28,7 @@ text-align: center;
     rgb(218, 219, 223) 100%);
     margin-top: -0.50%;
     border-radius: 0.25em;
+    border: solid 1px black;
 }
 
 footer {
@@ -36,7 +37,7 @@ footer {
   rgb(129, 143, 247) 100%);
   width: 100%;
   height: 75px;
-  border: solid 2px black;
+  border: solid 1.5px black;
   border-radius: 0.25em;
 }
 
