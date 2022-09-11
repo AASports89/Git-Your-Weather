@@ -21,10 +21,10 @@
 
     <div class="container-fluid">
         <div class="row mt-2">
-<!-- SIDE-BAR COLUMN -->
+<!--**************************************************** SIDE-BAR COLUMN *****************************************************-->
             <aside class="col-lg-4">
                 <div style="border: solid 1.5px black; border-radius: 1em; margin-top: 2%" class="card bg-light p-2 mb-2">
-<!-- CITY SEARCH -->
+<!--**************************************************** CITY SEARCH *********************************************************-->
                     <h4><img style="width: 75%; height: atuo; margin-left: 12.5%" src="./assets/images/search.png"></h4>
                     <nav style="width:100%" class="navbar navbar-light bg-light">
                       <form style="width: 100%" class="form-inline" id="city-search">
@@ -36,17 +36,16 @@
                       </form>
                     </nav>
                     <h5><img style="width: 60%; height: auto; margin-left: 20%; margin-top: 3%" src="./assets/images/select.png"></h5>
-<!-- STORED CITY BUTTONS -->
+<!--************************************************* STORED CITY BUTTONS ****************************************************-->
                     <ul style="text-align: center; border: solid black 1.25px; border-radius: 0.3em;" class="list-group mt-2" id="city-list">
                     </ul>
                 </div>
             </aside>
 
-<!-- 5-DAY FORECAST -->
+<!--***************************************************** 5-DAY FORECAST ******************************************************-->
             <div class="col-lg-8">
-<!-- PLACEHOLDERS FOR DATA OUTPUT -->
-
-              <div style="border-radius: 1em; border: solid 1.5px whitesmoke; margin-top: 1%" class="card-body">
+<!--******************************************** PLACEHOLDERS FOR DATA OUTPUT *************************************************-->
+          <div style="border-radius: 1em; border: solid 1.5px whitesmoke; margin-top: 1%" class="card-body">
                 <h5 style="text-align: center" class="card-title"><img style="width: 45%; height: auto" src="./assets/images/current.png"></h5>
                 <section style="border: dashed 1.5px black" class="card p-2" id="current" style="display:none">
                     <h1 style="color: #1f19ce; text-align: center; font-size: 325%; border-bottom: 1px solid black" id="city"></h1>
@@ -57,7 +56,7 @@
                     <p id="uv-index">UV Index: <span class="color"></span></p>
                 </section>
               </div>
-<!-- DISPLAY FOR 5-DAY FORECAST OUTPUT -->
+<!--******************************************* DISPLAY FOR 5-DAY FORECAST OUTPUT ****************************************-->
                 <section style="border: solid 1.5px whitesmoke; border-radius: 1em; text-align: center; font-weight: bold" class="mt-2 mb-2" id="five-day" style="display:none;">
                     <h3 style="text-align: center"><img src="./assets/images/fc.png"></h3>
                     <div style="width: 99%; border-radius: 1em; border: dashed 1.5px black; margin-bottom: 1%; margin-left: 0.5%" class="card-deck">
