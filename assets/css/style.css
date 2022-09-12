@@ -48,8 +48,8 @@ text-align: center;
 
 .container-fluid { 
   background-image: linear-gradient(
-    rgb(148, 149, 154) 0%,
-    rgb(218, 219, 223) 100%);
+    rgb(83, 84, 87) 0%,
+    rgb(226, 226, 236) 100%);
     margin-top: -0.40%;
     border-radius: 0.25em;
     border: solid 1px black;
