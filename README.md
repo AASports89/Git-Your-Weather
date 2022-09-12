@@ -45,27 +45,27 @@ THEN I am again presented with current and future conditions for that city
 > **Note**: The GIF & images below represent the look and functionality of the Git Your Weather application:
 
 
-![The following GIF highlights the functionality and overall look of the application.](./assets/images/weather.gif)
+![The following GIF highlights the functionality and overall look of the application.](./assets/images/gitweather.gif)
 
 
 ### Main Screen:
 
-![The following image highlights the main screen of the application.](./assets/images/mpg.jpg)
+![The following image highlights the main screen of the application.](./assets/images/mpg.png)
 
 
 ### Functionality:
 
-![The following image highlights the Google Maps feature of the application.](./assets/images/mpg2.jpg)
+![The following image highlights the Google Maps feature of the application.](./assets/images/mpg2.png)
 
 
 ### Smart-Phone Compatibility:
 
-![The following image depicts the smart-phone compatibility of the application.](./assets/images/sph.jpg)
+![The following image depicts the smart-phone compatibility of the application.](./assets/images/mbpg.png)
 
 
 ### Tablet Device Compatibility:
 
-![The following image depicts how the application is displayed witin a tablet device.](./assets/images/td.jpg)
+![The following image depicts how the application is displayed witin a tablet device.](./assets/images/tdpg.png)
 
 
 > **Note:** The deployed webpage and GitHUB repository URLs are located below:

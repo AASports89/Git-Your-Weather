@@ -110,7 +110,7 @@ $(document).ready(function () {
 
 //ADDS THE CITY NAME & DATE FOR CURRENT WEATHER//
           $("#city").text(response.name);
-          $("#date").text(moment.unix(response.dt).format("dddd, MM/DD/YYYY"));
+          $("#date").text(moment.unix(response.dt).format("dddd, MM/DD/YYYY @ hh:mm:ss a"));
                       
 //SAVES THE CITY NAME IN LOCAL-STORAGE//
           localStorage.setItem("cityname", response.name);
@@ -121,7 +121,7 @@ $(document).ready(function () {
       })
   }
 
-//FUNC TO DISPLAY LAST QUERIED CITY'S DATA//
+//DISPLAY LAST QUERIED CITY'S DATA//
   function init(){
       cityName = localStorage.getItem("cityname");
       if (cityName !== null) {
@@ -153,7 +153,7 @@ $(document).ready(function () {
 
   init();
 
-  //SUBMIT INPUT DURING USER'S CITY SEARCH//
+//SUBMIT INPUT DURING USER'S CITY SEARCH//
   $("#city-search").submit(function (event) {
       event.preventDefault();
       searchButton();
@@ -164,7 +164,7 @@ $(document).ready(function () {
       searchButton();
   })
 
-  //EVENT-LISTENER FOR STORED CITY BUTTONS//
+//EVENT-LISTENER FOR STORED CITY BUTTONS//
   $("ul").on("click", "button", function () {
       cityName = $(this).text();
       console.log(cityName);
@@ -172,19 +172,19 @@ $(document).ready(function () {
       getWeather();
   })
 
- //ADDRESSING ERRORS
+ //ADDRESSING ERRORS//
   $( document ).ajaxError(function() {
       var error = $("<p>");
       error.addClass("error");
       error.css({"color": "red"});
       error.text("Please try again with a valid city");
-      //prepends the error message below the text field
+//prepends the error message below the text field//
       $("ul").prepend(error);
-      //find the button just created with the incorrect city name
+//find the button just created with the incorrect city name//
       var p = $(this).find("button");
-      //removes the button with the incorrect name
+//removes the button with the incorrect name//
       p[1].remove();
-      //error message goes away after 2 seconds
+//error message goes away after 2 secs//
       setTimeout(function () {
           error.remove();
           }, 2000);

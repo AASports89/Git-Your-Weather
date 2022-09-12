@@ -12,8 +12,32 @@ header {
     border-radius: 0.25em;
 }
 
-body {
-  background-color: rgb(41, 132, 236);
+#git {
+  width: 75%; 
+  height: auto;
+  margin: 1%;
+  border-radius: 0.25em;
+  border: 0.5px solid whitesmoke;
+}
+
+#search {
+width: 75%;
+height: auto;
+}
+
+#select{
+width: 50%;
+height: auto;
+}
+
+#curcity {
+width: 50%;
+height: auto;
+}
+
+#forecast {
+  width: 70%;
+  height: auto;
 }
 
 p {
@@ -26,7 +50,7 @@ text-align: center;
   background-image: linear-gradient(
     rgb(148, 149, 154) 0%,
     rgb(218, 219, 223) 100%);
-    margin-top: -0.35%;
+    margin-top: -0.40%;
     border-radius: 0.25em;
     border: solid 1px black;
 }
@@ -47,7 +71,25 @@ footer {
   .container {
     flex-wrap: wrap;
   }
-  
+
+  #git {
+    width: 96%; 
+    height: auto;
+    margin: 2%;
+    border-radius: 0.25em;
+    border: 0.5px solid whitesmoke;
+  }
+
+  #search {
+    width: 75%;
+    height: auto;
+  }
+
+  #select{
+    width: 60%;
+    height: auto;
+  }
+
 }
 
 @media (max-width: 760px) {
@@ -56,6 +98,28 @@ footer {
     flex-wrap: wrap;
   }
 
+  #git {
+    width: 96%; 
+    height: auto;
+    margin: 2%;
+    border-radius: 0.25em;
+    border: 0.5px solid whitesmoke;
+  }
+
+  #search {
+    width: 75%;
+    height: auto;
+  }
+
+  #select{
+    width: 60%;
+    height: auto;
+  }
+
+    #forecast {
+      width: 85%;
+      height: auto;
+    }
 }
 
 @media (max-width: 500px) {
@@ -64,4 +128,31 @@ footer {
     flex-wrap: wrap;
   }
 
+  #git {
+    width: 96%; 
+    height: auto;
+    margin: 2%;
+    border-radius: 0.25em;
+    border: 0.5px solid whitesmoke;
+  }
+
+  #search {
+    width: 75%;
+    height: auto;
+    }
+
+    #select{
+      width: 60%;
+      height: auto;
+      }
+
+  #curcity {
+    width: 75%;
+    height: auto;
+  }
+
+  #forecast {
+    width: 85%;
+    height: auto;
+  }
 }
